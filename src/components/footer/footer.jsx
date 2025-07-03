@@ -9,22 +9,22 @@ import Link from "next/link";
 
 const footerUrls = [
   {
-    url1: "/about-us",
-    url1Text: "About Us",
-    url2: "/contact-us",
-    url2Text: "Contact Us",
+    url1: "/splinedemo2",
+    url1Text: "Spline Demo 2 ",
+    url2: "/splinedemo3",
+    url2Text: "Spline Demo 3",
   },
   {
-    url1: "#",
-    url1Text: "ABC",
-    url2: "#",
-    url2Text: "Global Services",
+    url1: "/splinedemo4",
+    url1Text: "Spline Demo 4",
+    url2: "/splinedemo5",
+    url2Text: "Spline Demo 5",
   },
 ];
 
 const Footer = () => {
-  const texts = ["TIME TO"];
-  const texts1 = ["ROAR!"];
+  // const texts = ["TIME TO"];
+  // const texts1 = ["ROAR!"];
   const pathname = usePathname();
   console.log("url", pathname);
   return (
@@ -74,7 +74,7 @@ const Footer = () => {
           </ul>
         ))}
       </nav>
-      <div className="copyright">© 2024 All Rights Reserved</div>
+      <div className="copyright">© 2025 All Rights Reserved</div>
     </footer>
     // )
   );

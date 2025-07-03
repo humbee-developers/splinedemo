@@ -1,9 +1,9 @@
 
 "use client"
 import { useEffect } from "react";
+import Modeltwo from "@/components/threeDModelTwo/ModelTwo";
 
-
-const AboutUsMain = () => {
+const SplineDemo2 = () => {
   useEffect(() => {
     document.title =
         "Spline Demo 2";
@@ -11,8 +11,9 @@ const AboutUsMain = () => {
   return (
     <>
       <div>
+        <Modeltwo />
       </div>
     </>
   );
 };
-export default AboutUsMain;
+export default SplineDemo2;

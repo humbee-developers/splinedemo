@@ -1,6 +1,7 @@
 "use client";
 import { useEffect } from "react";
-import "./contactus.css";
+import ModelThree from "@/components/threeDModelThree/ModelThree";
+import "./splinedemo3.css";
 function ContactUs() {
   useEffect(() => {
     document.title = "Spline Demo 3";
@@ -8,7 +9,7 @@ function ContactUs() {
   return (
     <>
       <div>
-        <p>spline demo 3 </p>
+        <ModelThree />
       </div>
     </>
   );

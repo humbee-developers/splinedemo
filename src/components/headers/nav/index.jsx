@@ -17,13 +17,13 @@ const links = [
     // src: image1,
   },
   {
-    title: "About - Us",
-    href: "/about-us",
+    title: "Spline Demo 2",
+    href: "/splinedemo2",
     // src: image2,
   },
   {
-    title: "Contact - Us",
-    href: "/contact-us",
+    title: "Spline Demo 3",
+    href: "/splinedemo3",
     // src: image3,
   },
  

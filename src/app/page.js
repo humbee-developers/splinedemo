@@ -4,8 +4,8 @@ import { useState, useEffect } from "react";
 // import Abc from "@/components/headingtextdemo/Textdemo";
 import Model from "@/components/threeDModel/Model";
 import Lenis from "@studio-freight/lenis";
-import ThreedSliderFirst from "@/components/threedfirstpage/page";
-import VideoSec from "@/components/videosection/page";
+// import ThreedSliderFirst from "@/components/threedfirstpage/page";
+// import VideoSec from "@/components/videosection/page";
 import Preloader from "@/components/preloader/index";
 import { AnimatePresence } from "framer-motion";
 
