@@ -16,22 +16,10 @@ const footerUrls = [
   },
   {
     url1: "#",
-    url1Text: "KGM Group Pty Ltd | ACN 657 588 988",
+    url1Text: "ABC",
     url2: "#",
-    url2Text: "Global Consultancy Services",
+    url2Text: "Global Services",
   },
-  // {
-  //   url1: "#",
-  //   url1Text: "Copyright 2024",
-  //   url2: "#",
-  //   url2Text: "kgm group",
-  // },
-  // {
-  //   url1: "tel:9900000000",
-  //   url1Text: "+91 9900000000",
-  //   url2: "mailto:info@kgmgroup.com",
-  //   url2Text: "info@kgmgroup.com",
-  // },
 ];
 
 const Footer = () => {
@@ -86,9 +74,6 @@ const Footer = () => {
           </ul>
         ))}
       </nav>
-      <div className="ImageBorder">
-        {/* <Image src={border} alt="border" /> */}
-      </div>
       <div className="copyright">© 2024 All Rights Reserved</div>
     </footer>
     // )
