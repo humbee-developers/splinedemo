@@ -1,0 +1,32 @@
+{
+  "name": "splinedemo",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@hookform/resolvers": "^3.9.0",
+    "@react-three/fiber": "^7.0.29",
+    "@splinetool/react-spline": "^4.0.0",
+    "@studio-freight/lenis": "^1.0.42",
+    "framer-motion": "^11.2.11",
+    "gsap": "^3.12.5",
+    "locomotive-scroll": "^4.1.4",
+    "next": "14.2.4",
+    "react": "^18",
+    "react-dom": "^18",
+    "react-fast-marquee": "^1.6.5",
+    "react-hook-form": "^7.52.1",
+    "sass": "^1.77.8",
+    "swiper": "^11.1.4",
+    "yup": "^1.4.0"
+  },
+  "devDependencies": {
+    "eslint": "^8",
+    "eslint-config-next": "14.2.4"
+  }
+}

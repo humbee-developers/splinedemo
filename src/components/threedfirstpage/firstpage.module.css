@@ -1,0 +1,175 @@
+.cursor {
+  pointer-events: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+}
+
+.cursor__ball {
+  position: fixed;
+  mix-blend-mode: difference;
+}
+
+.cursor__ballbig {
+  height: 30px;
+  width: 30px;
+  /* background: rgba(255, 255, 255, 0); */
+}
+
+.cursor__ballsmall {
+  height: 10px;
+  width: 10px;
+  /* background: rgba(255, 255, 255, 0); */
+}
+
+.cursor__ball circle {
+  fill: #2e2e3069;
+}
+
+
+
+/*  */
+.Text {
+  height: 100vh;
+  /* color: white; */
+  /* font-size: 60px; */
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* margin: 3rem 0; */
+  position: relative;
+  border-bottom: 1px solid white;
+}
+.Spliendesign {
+  max-width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+.TextInnerModel {
+  position: absolute;
+  top: 26%;
+  left: 37%;
+  transform: translate(-50%, -50%);
+}
+.InnerTextModule {
+  font-size: 72px;
+  color: #fff;
+  text-align: left;
+  line-height: 100%;
+  font-weight: 400;
+  width: 80%;
+}
+.InnerTextfield {
+  position: absolute;
+  top: 80%;
+  left: 45%;
+  transform: translate(-50%, -50%);
+}
+.InnerTextfieldOne {
+  font-size: 16px;
+  font-family: "Helvetican_Light";
+  color: #fff;
+  width: 58%;
+  /* line-height: 25px; */
+  text-align: justify;
+  line-height: 160%;
+  font-weight: 300;
+}
+.InnerTextfieldScroll{
+  position: absolute;
+  top: 90%;
+  left: 10%;
+  transform: translate(-50%, 50%);
+}
+.scrollDown{
+  /* font-size: calc(100% + 0.5vw); */
+  /* cursor: pointer; */
+  /* line-height: 1.2; */
+  /* margin: 0.3em 0; */
+  /* color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+  background-repeat: no-repeat;
+  transition: 0.5s ease-out; */
+}
+.otherClass{
+  background-image: linear-gradient(to right, #c5fcfc 45%, white  55%);
+  background-size: 220% 100%;
+  background-position: 100% 50%;
+}
+.otherClass:hover{
+  background-position: 0% 50%;
+}
+@media (min-width: 1500px) {
+  .InnerTextModule {
+    width: 70%;
+  }
+}
+@media (max-width: 1199px) {
+  .InnerTextModule {
+    font-size: 3.375rem;
+  }
+  .InnerTextfieldOne{
+    width: 85%;
+  }
+  .InnerTextfieldScroll{
+    display: none;
+  }
+}
+/* @media (max-width: 1024px) {
+  .InnerTextfield {
+    position: absolute;
+    top: 86%;
+    left: 36%;
+    transform: translate(-50%, -50%);
+  }
+  .InnerTextfieldOne {
+    width: 70%;
+    font-size: 18px;
+  }
+  .TextInnerModel{
+    left: 36%;
+  }
+  .InnerTextModule{
+    font-size: 42px;
+  }
+} */
+@media (max-width: 768px) {
+  .InnerTextModule {
+    font-size: 2.25rem;
+    width: 90%;
+  }
+  .InnerTextfieldOne {
+    width: 100%;
+  }
+  .InnerTextfield{
+    left: 37%;
+  }
+  .TextInnerModel{
+    top: 15%;
+  }
+}
+@media (max-width: 440px) {
+  .TextInnerModel {
+    left: 15%;
+    width: 70%;
+    top: 18%;
+    transform: translate(-10%, -50%);
+  }
+  .InnerTextModule {
+    font-size: 30px;
+    width: 100%;
+  }
+  .InnerTextfieldOne {
+    width: 88%;
+    font-size: 16px;
+    padding-left: 10px;
+  }
+  .InnerTextfield {
+    top: 80%;
+    left: 53%;
+    width: 100%;
+  }
+}
