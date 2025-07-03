@@ -56,9 +56,9 @@ export default function Home() {
       </AnimatePresence>
       {/* <HomeBanner loadImage={handleLoad} counter={handleCounter} /> */}
       <div data-scroll-container>
-        <ThreedSliderFirst />
+        {/* <ThreedSliderFirst /> */}
         <Model />
-        <VideoSec />
+        {/* <VideoSec /> */}
       </div>
     </>
   );
